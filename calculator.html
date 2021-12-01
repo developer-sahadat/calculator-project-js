@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+    <div class="container">
+        <input type="text" id="result">
+        <div class="div1">
+            <input type="button" value="C" class="but" onclick="del()">
+            <input type="button" value="+/-" class="but" onclick="calculator('+/-')">
+            <input type="button" value="%" class="but"  onclick="calculator('%')">
+            <input type="button" value="/" class="but" id="but1"  onclick="calculator('/')">
+        </div>
+        <div class="div1">
+            <input type="button" value="7" class="but"  onclick="calculator('7')">
+            <input type="button" value="8" class="but"  onclick="calculator('8')">
+            <input type="button" value="9" class="but"  onclick="calculator('9')">
+            <input type="button" value="×" class="but" id="but1"  onclick="calculator('*')">
+        </div>
+        <div class="div1">
+            <input type="button" value="4" class="but"  onclick="calculator('4')">
+            <input type="button" value="5" class="but"  onclick="calculator('5')">
+            <input type="button" value="6" class="but"  onclick="calculator('6')">
+            <input type="button" value="-" class="but" id="but1"  onclick="calculator('-')">
+        </div>
+        <div class="div1">
+            <input type="button" value="1" class="but"  onclick="calculator('1')">
+            <input type="button" value="2" class="but"  onclick="calculator('2')">
+            <input type="button" value="3" class="but"  onclick="calculator('3')">
+            <input type="button" value="+" class="but" id="but1"  onclick="calculator('+')">
+        </div>
+        <div class="div1">
+            <input type="button" value="0" class="but"  onclick="calculator('0')">
+            <input type="button" value="." class="but"  onclick="calculator('.')">
+            <input type="button" value="DEL" class="but"  onclick="del()">
+            <input type="button" value="=" class="but" id="but2"  onclick="ans()">
+        </div>
+    </div>
+
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
